@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="405sp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:background="@drawable/gradient_background">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="100sp"
+                android:src="@drawable/profile"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="53dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saksham Sharma"
+
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="150dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250sp"
+            android:layout_height="120sp"
+            android:layout_marginTop="220sp"
+            android:layout_marginLeft="80sp"
+            android:background="@color/blue"
+            app:cardCornerRadius="20sp"
+            >
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="250sp"
+                android:layout_height="120sp"
+                android:orientation="horizontal">
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="70sp"
+                        android:layout_height="120sp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Photos"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="6sp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="12"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="12sp"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="70sp"
+                    android:layout_height="120sp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15sp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Following"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="0sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12sp"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="70sp"
+                    android:layout_height="120sp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15sp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Follower"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="0sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1200"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="12sp"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="300sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="80sp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="45sp"
+                android:src="@mipmap/mobile_round"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4323424324"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="45sp"
+                android:src="@mipmap/message_round"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4323424324"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="45sp"
+                android:src="@mipmap/email"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="saksham.sharma@evontech.com"
+                android:textSize="15"
+                android:layout_marginTop="16sp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_info"
+        android:text="Follow"
+        android:textSize="18sp"
+        android:layout_marginLeft="170sp"/>
+
+   
+
+</androidx.appcompat.widget.LinearLayoutCompat>
